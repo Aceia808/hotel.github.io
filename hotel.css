@@ -1,0 +1,83 @@
+.person {
+    height: 75px;
+    width: 100px;
+    background-color: cyan;
+}
+.clock {
+    height: 75px;
+    width: 495px;
+    background-color: purple;
+    position:absolute;
+    bottom: 270px;
+    left: 106px;
+}
+.rooms {
+    position: relative;
+    width: 45vw; 
+    height: 70vh;
+    background-color: crimson; 
+    border-radius: 32px; 
+    text-align: center;
+}
+#everyguest {
+    width: 45vw; 
+    height: 70vh;
+    background-color: gold; 
+    border-radius: 32px; 
+}
+.results {
+    position: relative;
+    left: 100px;
+    width: 400px;
+    height: 30px;
+    font-size: 17px;
+    background-color: coral;
+}
+.adds {
+    position: relative;
+    right: 8px;
+    bottom: 25px;
+    width: 394px;
+    height: 30px;
+    font-size: 17px;
+}
+.Addeds {
+    position: relative;
+    right: 8px;
+    bottom: 25px;
+    width: 400px;
+    height: 30px;
+    font-size: 17px;
+}
+.removes {
+    position: relative;
+    right: 8px;
+    bottom: 25px;
+    width: 394px;
+    height: 30px;
+    font-size: 17px;
+}
+.Removeds {
+    position: relative;
+    right: 8px;
+    bottom: 25px;
+    width: 400px;
+    height: 30px;
+    font-size: 17px;
+}
+.AllRemoves {
+    position: relative;
+    left: 44px;
+    bottom: 25px;
+    width: 400px;
+    height: 30px;
+    font-size: 17px;
+}
+.locks {
+    position: relative;
+    bottom: 350px;
+    right: 7px;
+    width: 10000px;
+    height: 25px;
+    font-size: 17px;
+}

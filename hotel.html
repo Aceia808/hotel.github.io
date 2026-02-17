@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="hotel.css" type="text/css">
+</head>
+<body>
+    <h1>Hotel</h1>
+    <p>Rooms cannot go above 4 people</p>
+    <div class="rooms" id="Room1">
+        <h1>Room 1</h1>
+        <p class="person" id="people">ㅤ</p>
+        <p class="clock" id="time">ㅤ</p>
+        <p  class="results" style="text-align: center;" id="result">ㅤ</p>
+        <input class="adds" id="add" placeholder="Enter guest's name">
+        <button class="Addeds" id="Added" onclick="roomAdd()">Add a guest</button>
+        <input class="removes" id="remove" placeholder="Enter guest's name">
+        <button class="Removeds" id="Removed" onclick="roomRemove()">Remove a guest</button>
+        <button class="AllRemoves" id="AllRemoved" onclick="removeAll()">Remove all guests</button>
+        <button class="Locks" id="lock" onclick="lockswitch()">Lock the room</button>
+    </div>
+    <div class="rooms" id="Room2">
+        <h1>Room 2</h1>
+        <p class="person" id="people2">ㅤ</p>
+        <p class="clock" id="time2">ㅤ</p>
+        <p class="results" style="text-align: center;" id="result2">ㅤ</p>
+        <input class="adds" id="add2" placeholder="Enter guest's name">
+        <button class="Addeds" id="Added2" onclick="roomAdd2()">Add a guest</button>
+        <input class="removes" id="remove2" placeholder="Enter guest's name">
+        <button class="Removeds" id="Removed2" onclick="roomRemove2()">Remove a guest</button>
+        <button class="AllRemoves" id="AllRemoved2" onclick="removeAll2()">Remove all guests</button>
+        <button class="Locks" id="lock2" onclick="lockswitch2()">Lock the room</button>
+    </div>
+    <div class="rooms" id="Room3">
+        <h1>Room 3</h1>
+        <p class="person" id="people3">ㅤ</p>
+        <p class="clock" id="time3">ㅤ</p>
+        <p class="results" style="text-align: center;" id="result3">ㅤ</p>
+        <input class="adds" id="add3" placeholder="Enter guest's name">
+        <button class="Addeds" id="Added3" onclick="roomAdd3()">Add a guest</button>
+        <input class="removes" id="remove3" placeholder="Enter guest's name">
+        <button class="Removeds" id="Removed3" onclick="roomRemove3()">Remove a guest</button>
+        <button class="AllRemoves" id="AllRemoved3" onclick="removeAll3()">Remove all guests</button>
+        <button class="Locks" id="lock3" onclick="lockswitch3()">Lock the room</button>
+    </div>
+    <div class="rooms" id="Room4">
+        <h1>Room 4</h1>
+        <p class="person" id="people4">ㅤ</p>
+        <p class="clock" id="time4">ㅤ</p>
+        <p class="results" style="text-align: center;" id="result4">ㅤ</p>
+        <input class="adds" id="add4" placeholder="Enter guest's name">
+        <button class="Addeds" id="Added4" onclick="roomAdd4()">Add a guest</button>
+        <input class="removes" id="remove4" placeholder="Enter guest's name">
+        <button class="Removeds" id="Removed4" onclick="roomRemove4()">Remove a guest</button>
+        <button class="AllRemoves" id="AllRemoved4" onclick="removeAll4()">Remove all guests</button>
+        <button class="Locks" id="lock4" onclick="lockswitch4()">Lock the room</button>
+    </div>
+    <div class="rooms" id="Room5">
+        <h1>Room 5</h1>
+        <p class="person" id="people5">ㅤ</p>
+        <p class="clock" id="time5">ㅤ</p>
+        <p class="results" style="text-align: center;" id="result5">ㅤ</p>
+        <input class="adds" id="add5" placeholder="Enter guest's name">
+        <button class="Addeds" id="Added5" onclick="roomAdd5()">Add a guest</button>
+        <input class="removes" id="remove5" placeholder="Enter guest's name">
+        <button class="Removeds" id="Removed5" onclick="roomRemove5()">Remove a guest</button>
+        <button class="AllRemoves" id="AllRemoved5" onclick="removeAll5()">Remove all guests</button>
+        <button class="Locks" id="lock5" onclick="lockswitch5()">Lock the room</button>
+    </div>
+    <div class="rooms" id="Room6">
+        <h1>Room 6</h1>
+        <p class="person" id="people6">ㅤ</p>
+        <p class="clock" id="time6">ㅤ</p>
+        <p class="results" style="text-align: center;" id="result6">ㅤ</p>
+        <input class="adds" id="add6" placeholder="Enter guest's name">
+        <button class="Addeds" id="Added6" onclick="roomAdd6()">Add a guest</button>
+        <input class="removes" id="remove6" placeholder="Enter guest's name">
+        <button class="Removeds" id="Removed6" onclick="roomRemove6()">Remove a guest</button>
+        <button class="AllRemoves" id="AllRemoved6" onclick="removeAll6()">Remove all guests</button>
+        <button class="Locks" id="lock6" onclick="lockswitch6()">Lock the room</button>
+    </div>
+    <div id="everyguest">
+        <p id="everyone"></p>
+        <p id="everytime"></p>
+    </div>
+    <script src="hotel.js"> </script>
+</body>
+</html>
