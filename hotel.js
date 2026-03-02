@@ -20,8 +20,8 @@ function roomAdd() {
             g('result').innerHTML = `Added to room`
             g('people').innerHTML = array.join('<br>')
             g('time').innerHTML = timearray.join('<br>')
-            g('everyone').innerHTML = everyarray
-            g('everytime').innerHTML = everytimearray
+            g('everyone').innerHTML = everyarray.join('<br>')
+            g('everytime').innerHTML = everytimearray.join('<br>')
         }
         else {
             g('result').innerHTML = `Nothing there`
@@ -45,6 +45,7 @@ function roomRemove() {
         g('result').innerHTML = `Removed from room`
         g('people').innerHTML = array.join('<br>')
         g('time').innerHTML = timearray.join('<br>')
+        
 }
 function removeAll() {
     array.length = 0
@@ -60,25 +61,17 @@ function lockswitch() {
         trufal = true
         let a = g('add')
         let b = g('Added')
-        let c = g('remove')
-        let d = g('Removed')
         a.disabled = true
         b.disabled = true
-        c.disabled = true
-        d.disabled = true
         lock.textContent = 'Unlock the room';
     }
     else if (trufal === true) {
         trufal = false
         let a = g('add')
         let b = g('Added')
-        let c = g('remove')
-        let d = g('Removed')
         console.log(a)
         a.disabled = false
         b.disabled = false
-        c.disabled = false
-        d.disabled = false
         lock.textContent = 'Lock the room';
 
     }
@@ -98,8 +91,8 @@ function roomAdd2() {
             g('result2').innerHTML = `Added to room`
             g('people2').innerHTML = array2.join('<br>')
             g('time2').innerHTML = timearray2.join('<br>')
-            g('everyone').innerHTML = everyarray
-            g('everytime').innerHTML = everytimearray
+            g('everyone').innerHTML = everyarray.join('<br>')
+            g('everytime').innerHTML = everytimearray.join('<br>')
         }
         else {
             g('result2').innerHTML = `Nothing there`
@@ -138,25 +131,17 @@ function lockswitch2() {
         trufal2 = true
         let a = g('add2')
         let b = g('Added2')
-        let c = g('remove2')
-        let d = g('Removed2')
         a.disabled = true
         b.disabled = true
-        c.disabled = true
-        d.disabled = true
         lock2.textContent = 'Unlock the room';
     }
     else if (trufal2 === true) {
         trufal2 = false
         let a = g('add2')
         let b = g('Added2')
-        let c = g('remove2')
-        let d = g('Removed2')
         console.log(a)
         a.disabled = false
         b.disabled = false
-        c.disabled = false
-        d.disabled = false
         lock2.textContent = 'Lock the room';
 
     }
@@ -176,8 +161,8 @@ function roomAdd3() {
             g('result3').innerHTML = `Added to room`
             g('people3').innerHTML = array3.join('<br>')
             g('time3').innerHTML = timearray3.join('<br>')
-            g('everyone').innerHTML = everyarray
-            g('everytime').innerHTML = everytimearray
+            g('everyone').innerHTML = everyarray.join('<br>')
+            g('everytime').innerHTML = everytimearray.join('<br>')
         }
         else {
             g('result3').innerHTML = `Nothing there`
@@ -216,25 +201,17 @@ function lockswitch3() {
         trufal3 = true
         let a = g('add3')
         let b = g('Added3')
-        let c = g('remove3')
-        let d = g('Removed3')
         a.disabled = true
         b.disabled = true
-        c.disabled = true
-        d.disabled = true
         lock3.textContent = 'Unlock the room';
     }
     else if (trufal3 === true) {
         trufal3 = false
         let a = g('add3')
         let b = g('Added3')
-        let c = g('remove3')
-        let d = g('Removed3')
         console.log(a)
         a.disabled = false
         b.disabled = false
-        c.disabled = false
-        d.disabled = false
         lock3.textContent = 'Lock the room';
 
     }
@@ -254,8 +231,8 @@ function roomAdd4() {
             g('result4').innerHTML = `Added to room`
             g('people4').innerHTML = array4.join('<br>')
             g('time4').innerHTML = timearray4.join('<br>')
-            g('everyone').innerHTML = everyarray
-            g('everytime').innerHTML = everytimearray
+            g('everyone').innerHTML = everyarray.join('<br>')
+            g('everytime').innerHTML = everytimearray.join('<br>')
         }
         else {
             g('result4').innerHTML = `Nothing there`
@@ -294,25 +271,17 @@ function lockswitch4() {
         trufal4 = true
         let a = g('add4')
         let b = g('Added4')
-        let c = g('remove4')
-        let d = g('Removed4')
         a.disabled = true
         b.disabled = true
-        c.disabled = true
-        d.disabled = true
         lock4.textContent = 'Unlock the room';
     }
     else if (trufal4 === true) {
         trufal4 = false
         let a = g('add4')
         let b = g('Added4')
-        let c = g('remove4')
-        let d = g('Removed4')
         console.log(a)
         a.disabled = false
         b.disabled = false
-        c.disabled = false
-        d.disabled = false
         lock4.textContent = 'Lock the room';
 
     }
@@ -332,8 +301,8 @@ function roomAdd5() {
             g('result5').innerHTML = `Added to room`
             g('people5').innerHTML = array5.join('<br>')
             g('time5').innerHTML = timearray5.join('<br>')
-            g('everyone').innerHTML = everyarray
-            g('everytime').innerHTML = everytimearray
+            g('everyone').innerHTML = everyarray.join('<br>')
+            g('everytime').innerHTML = everytimearray.join('<br>')
         }
         else {
             g('result5').innerHTML = `Nothing there`
@@ -372,25 +341,17 @@ function lockswitch5() {
         trufal5 = true
         let a = g('add5')
         let b = g('Added5')
-        let c = g('remove5')
-        let d = g('Removed5')
         a.disabled = true
         b.disabled = true
-        c.disabled = true
-        d.disabled = true
         lock5.textContent = 'Unlock the room';
     }
     else if (trufal5 === true) {
         trufal5 = false
         let a = g('add5')
         let b = g('Added5')
-        let c = g('remove5')
-        let d = g('Removed5')
         console.log(a)
         a.disabled = false
         b.disabled = false
-        c.disabled = false
-        d.disabled = false
         lock5.textContent = 'Lock the room';
 
     }
@@ -410,8 +371,8 @@ function roomAdd6() {
             g('result6').innerHTML = `Added to room`
             g('people6').innerHTML = array6.join('<br>')
             g('time6').innerHTML = timearray6.join('<br>')
-            g('everyone').innerHTML = everyarray
-            g('everytime').innerHTML = everytimearray
+            g('everyone').innerHTML = everyarray.join('<br>')
+            g('everytime').innerHTML = everytimearray.join('<br>')
         }
         else {
             g('result6').innerHTML = `Nothing there`
@@ -450,26 +411,287 @@ function lockswitch6() {
         trufal6 = true
         let a = g('add6')
         let b = g('Added6')
-        let c = g('remove6')
-        let d = g('Removed6')
         a.disabled = true
         b.disabled = true
-        c.disabled = true
-        d.disabled = true
         lock6.textContent = 'Unlock the room';
     }
     else if (trufal6 === true) {
         trufal6 = false
         let a = g('add6')
         let b = g('Added6')
-        let c = g('remove6')
-        let d = g('Removed6')
         console.log(a)
         a.disabled = false
         b.disabled = false
-        c.disabled = false
-        d.disabled = false
         lock6.textContent = 'Lock the room';
 
     }
 } 
+let masterlock = document.getElementById('masterlock')
+let trufal7 = false
+function lockrooms() {
+    if (trufal7 === false) {
+        trufal = true
+        trufal2 = true
+        trufal3 = true
+        trufal4 = true
+        trufal4 = true
+        trufal6 = true
+        trufal7 = true
+        // room 1
+        let a = g('add')
+        let b = g('Added')
+        let c = g('remove')
+        let d = g('Removed')
+        let e = g('AllRemoved')
+        let f = g('lock')
+        a.disabled = true
+        b.disabled = true
+        c.disabled = true
+        d.disabled = true
+        e.disabled = true
+        f.disabled = true
+        // room 2
+        let a2 = g('add2')
+        let b2 = g('Added2')
+        let c2 = g('remove2')
+        let d2 = g('Removed2')
+        let e2 = g('AllRemoved2')
+        let f2 = g('lock2')
+        a2.disabled = true
+        b2.disabled = true
+        c2.disabled = true
+        d2.disabled = true
+        e2.disabled = true
+        f2.disabled = true
+        // room 3
+        let a3 = g('add3')
+        let b3 = g('Added3')
+        let c3 = g('remove3')
+        let d3 = g('Removed3')
+        let e3 = g('AllRemoved3')
+        let f3 = g('lock3')
+        a3.disabled = true
+        b3.disabled = true
+        c3.disabled = true
+        d3.disabled = true
+        e3.disabled = true
+        f3.disabled = true
+        // room 4
+        let a4 = g('add4')
+        let b4 = g('Added4')
+        let c4 = g('remove4')
+        let d4 = g('Removed4')
+        let e4 = g('AllRemoved4')
+        let f4 = g('lock4')
+        a4.disabled = true
+        b4.disabled = true
+        c4.disabled = true
+        d4.disabled = true
+        e4.disabled = true
+        f4.disabled = true
+        // room 5
+        let a5 = g('add5')
+        let b5 = g('Added5')
+        let c5 = g('remove5')
+        let d5 = g('Removed5')
+        let e5 = g('AllRemoved5')
+        let f5 = g('lock5')
+        a5.disabled = true
+        b5.disabled = true
+        c5.disabled = true
+        d5.disabled = true
+        e5.disabled = true
+        f5.disabled = true
+        // room 6
+        let a6 = g('add6')
+        let b6 = g('Added6')
+        let c6 = g('remove6')
+        let d6 = g('Removed6')
+        let e6 = g('AllRemoved6')
+        let f6 = g('lock6')
+        a6.disabled = true
+        b6.disabled = true
+        c6.disabled = true
+        d6.disabled = true
+        e6.disabled = true
+        f6.disabled = true
+        lock.textContent = 'Unlock the room';
+        lock2.textContent = 'Unlock the room';
+        lock3.textContent = 'Unlock the room';
+        lock4.textContent = 'Unlock the room';
+        lock5.textContent = 'Unlock the room';
+        lock6.textContent = 'Unlock the room';
+        masterlock.textContent = 'Lockdown over';
+    }
+    else if (trufal7 === true) {
+        trufal = false
+        trufal2 = false
+        trufal3 = false
+        trufal4 = false
+        trufal5 = false
+        trufal6 = false
+        trufal7 = false
+        // room 1
+        let a = g('add')
+        let b = g('Added')
+        let c = g('remove')
+        let d = g('Removed')
+        let e = g('AllRemoved')
+        let f = g('lock')
+        a.disabled = false
+        b.disabled = false
+        c.disabled = false
+        d.disabled = false
+        e.disabled = false
+        f.disabled = false
+        // room 2
+        let a2 = g('add2')
+        let b2 = g('Added2')
+        let c2 = g('remove2')
+        let d2 = g('Removed2')
+        let e2 = g('AllRemoved2')
+        let f2 = g('lock2')
+        a2.disabled = false
+        b2.disabled = false
+        c2.disabled = false
+        d2.disabled = false
+        e2.disabled = false
+        f2.disabled = false
+        // room 3
+        let a3 = g('add3')
+        let b3 = g('Added3')
+        let c3 = g('remove3')
+        let d3 = g('Removed3')
+        let e3 = g('AllRemoved3')
+        let f3 = g('lock3')
+        a3.disabled = false
+        b3.disabled = false
+        c3.disabled = false
+        d3.disabled = false
+        e3.disabled = false
+        f3.disabled = false
+        // room 4
+        let a4 = g('add4')
+        let b4 = g('Added4')
+        let c4 = g('remove4')
+        let d4 = g('Removed4')
+        let e4 = g('AllRemoved4')
+        let f4 = g('lock4')
+        a4.disabled = false
+        b4.disabled = false
+        c4.disabled = false
+        d4.disabled = false
+        e4.disabled = false
+        f4.disabled = false
+        // room 5
+        let a5 = g('add5')
+        let b5 = g('Added5')
+        let c5 = g('remove5')
+        let d5 = g('Removed5')
+        let e5 = g('AllRemoved5')
+        let f5 = g('lock5')
+        a5.disabled = false
+        b5.disabled = false
+        c5.disabled = false
+        d5.disabled = false
+        e5.disabled = false
+        f5.disabled = false
+        // room 6
+        let a6 = g('add6')
+        let b6 = g('Added6')
+        let c6 = g('remove6')
+        let d6 = g('Removed6')
+        let e6 = g('AllRemoved6')
+        let f6 = g('lock6')
+        a6.disabled = false
+        b6.disabled = false
+        c6.disabled = false
+        d6.disabled = false
+        e6.disabled = false
+        f6.disabled = false
+        lock.textContent = 'Lock the room';
+        lock2.textContent = 'Lock the room';
+        lock3.textContent = 'Lock the room';
+        lock4.textContent = 'Lock the room';
+        lock5.textContent = 'Lock the room';
+        lock6.textContent = 'Lock the room';
+        masterlock.textContent = 'Lockdown the hotel';
+
+    }
+}
+function kickall() {
+    array.length = 0
+    timearray.length = 0
+    array2.length = 0
+    timearray2.length = 0
+    array3.length = 0
+    timearray3.length = 0
+    array4.length = 0
+    timearray4.length = 0
+    array5.length = 0
+    timearray5.length = 0
+    array6.length = 0
+    timearray6.length = 0
+    g('result').innerHTML = `Evacuated`
+    g('people').innerHTML = 'ㅤ'
+    g('time').innerHTML = 'ㅤ'
+    g('result2').innerHTML = `Evacuated`
+    g('people2').innerHTML = 'ㅤ'
+    g('time2').innerHTML = 'ㅤ'
+    g('result3').innerHTML = `Evacuated`
+    g('people3').innerHTML = 'ㅤ'
+    g('time3').innerHTML = 'ㅤ'
+    g('result4').innerHTML = `Evacuated`
+    g('people4').innerHTML = 'ㅤ'
+    g('time4').innerHTML = 'ㅤ'
+    g('result5').innerHTML = `Evacuated`
+    g('people5').innerHTML = 'ㅤ'
+    g('time5').innerHTML = 'ㅤ'
+    g('result6').innerHTML = `Evacuated`
+    g('people6').innerHTML = 'ㅤ'
+    g('time6').innerHTML = 'ㅤ'
+}
+function erase() {
+    array.length = 0
+    timearray.length = 0
+    array2.length = 0
+    timearray2.length = 0
+    array3.length = 0
+    timearray3.length = 0
+    array4.length = 0
+    timearray4.length = 0
+    array5.length = 0
+    timearray5.length = 0
+    array6.length = 0
+    timearray6.length = 0
+    everytimearray.length = 0
+    everyarray.length = 0
+    g('result').innerHTML = `ㅤ`
+    g('people').innerHTML = 'ㅤ'
+    g('time').innerHTML = 'ㅤ'
+    g('result2').innerHTML = `ㅤ`
+    g('people2').innerHTML = 'ㅤ'
+    g('time2').innerHTML = 'ㅤ'
+    g('result3').innerHTML = `ㅤ`
+    g('people3').innerHTML = 'ㅤ'
+    g('time3').innerHTML = 'ㅤ'
+    g('result4').innerHTML = `ㅤ`
+    g('people4').innerHTML = 'ㅤ'
+    g('time4').innerHTML = 'ㅤ'
+    g('result5').innerHTML = `ㅤ`
+    g('people5').innerHTML = 'ㅤ'
+    g('time5').innerHTML = 'ㅤ'
+    g('result6').innerHTML = `ㅤ`
+    g('people6').innerHTML = 'ㅤ'
+    g('time6').innerHTML = 'ㅤ'
+    g('everyone').innerHTML = 'ㅤ'
+    g('everytime').innerHTML = 'ㅤ'
+}
+function opacitychange() {
+    if (g('mastercontrols').style.opacity === "0") {
+        g('mastercontrols').style.opacity = "1"
+    }
+    else {
+        g('mastercontrols').style.opacity = "0"
+    }
+}
