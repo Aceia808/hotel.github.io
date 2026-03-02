@@ -1,29 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(101, 25, 104);
+}
 .person {
     height: 75px;
     width: 100px;
-    background-color: cyan;
+    outline: 1px solid rgb(99, 99, 99);
+    z-index: 2;
 }
 .clock {
     height: 75px;
     width: 495px;
-    background-color: purple;
     position:absolute;
-    bottom: 270px;
-    left: 106px;
+    bottom: 249px;
+    left: 120px;
+    outline: 1px solid rgb(99, 99, 99);
+    z-index: 2;
 }
 .rooms {
+    outline: 1px solid rgb(54, 54, 54);
     position: relative;
     width: 45vw; 
     height: 70vh;
-    background-color: crimson; 
     border-radius: 32px; 
+    left: 35px;
     text-align: center;
-}
-#everyguest {
-    width: 45vw; 
-    height: 70vh;
-    background-color: gold; 
-    border-radius: 32px; 
+    z-index: 2;
+    background-color: white;
 }
 .results {
     position: relative;
@@ -31,7 +35,7 @@
     width: 400px;
     height: 30px;
     font-size: 17px;
-    background-color: coral;
+    z-index: 2;
 }
 .adds {
     position: relative;
@@ -40,6 +44,7 @@
     width: 394px;
     height: 30px;
     font-size: 17px;
+    z-index: 2;
 }
 .Addeds {
     position: relative;
@@ -48,6 +53,7 @@
     width: 400px;
     height: 30px;
     font-size: 17px;
+    z-index: 2;
 }
 .removes {
     position: relative;
@@ -56,6 +62,7 @@
     width: 394px;
     height: 30px;
     font-size: 17px;
+    z-index: 2;
 }
 .Removeds {
     position: relative;
@@ -64,20 +71,123 @@
     width: 400px;
     height: 30px;
     font-size: 17px;
+    z-index: 2;
 }
 .AllRemoves {
     position: relative;
-    left: 44px;
+    right: 8px;
     bottom: 25px;
     width: 400px;
     height: 30px;
     font-size: 17px;
+    z-index: 2;
 }
-.locks {
+.Locks {
     position: relative;
-    bottom: 350px;
-    right: 7px;
-    width: 10000px;
-    height: 25px;
+    right: 8px;
+    bottom: 25px;
+    width: 400px;
+    height: 30px;
     font-size: 17px;
+    z-index: 2;
 }
+#hotel {
+    /* background-color: crimson; */
+    height: 1302px;
+    width: 1366px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: absolute;
+    top: 270px;
+}
+.information {
+    text-align: center;
+    z-index: 2;
+    /* background-color: purple; */
+    width: 100vw;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: grid;
+    place-items: center;
+    top: 50px;
+}
+#card1 {
+    background-color: aqua;
+    background-image: url(background.jpg);
+    image-resolution: inherit;
+    background-size: cover;
+    width:  100vw;
+    height: 400px;
+    position: relative;
+    top: -150px;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    
+}
+#everyguest {
+    outline: 1px solid rgb(54, 54, 54);
+    width: 46vw; 
+    height: 105vh;
+    border-radius: 32px; 
+    z-index: 2;
+    /* background-color: yellow; */
+    position: relative;
+    bottom: -1150px;
+    left: 35px;
+    text-align: center;
+    background-color: white;
+}
+#everyone{
+    /* background-color: aqua; */
+    height: 90vh;
+    width: 100px;
+    position: relative;
+    left: 1vw;
+    text-align: center;
+    outline: 1px solid rgb(99, 99, 99);
+}
+#everytime{
+    /* background-color: salmon; */
+    height: 90vh;
+    width: 495px;
+    position: relative;
+    left: 120px;
+    bottom: 555px;
+    text-align: center;
+    outline: 1px solid rgb(99, 99, 99);
+}
+#mastercontrols {
+    outline: 1px solid rgb(54, 54, 54);
+    width: 46vw; 
+    height: 20vh;
+    border-radius: 32px; 
+    z-index: 2;
+    background-color: teal;
+    position: relative;
+    bottom: -532px;
+    left: 700px;
+    text-align: center;
+    opacity: 0;
+}
+#opacity {
+    position: relative;
+    bottom: -1000px;
+}
+#logo {
+    background-color: yellow;
+    height: 125px;
+    width: 125px;
+    position: relative;
+}
+#rominfo {
+    position: relative;
+}
+/* #gam {
+    font-size: 4px;
+} */
